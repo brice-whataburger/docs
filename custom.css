@@ -1,0 +1,44 @@
+/* Target the main navbar container - the div with h-16 class that contains the navbar */
+.flex.items-center.lg\\:px-12.h-16.min-w-0.mx-4.lg\\:mx-0 {
+    background-color: #FF6600 !important;
+}
+
+/* Alternative targeting using the parent container */
+div.relative>.flex.items-center.h-16 {
+    background-color: #FF6600 !important;
+}
+
+/* Target the inner navbar content container */
+.h-full.relative.flex-1.flex.items-center.gap-x-4.min-w-0.border-b {
+    background-color: #FF6600 !important;
+    border-bottom: none !important;
+}
+
+/* Make navbar text white for better contrast */
+.flex.items-center.h-16 a,
+.flex.items-center.h-16 .navbar-link a,
+.flex.items-center.h-16 nav a {
+    color: white !important;
+}
+
+/* Style the search button to have white text */
+.flex.items-center.h-16 button {
+    color: white !important;
+}
+
+/* Make sure the Dashboard button text is white */
+.flex.items-center.h-16 .text-white {
+    color: white !important;
+}
+
+/* Target navbar links specifically */
+.navbar-link a {
+    color: white !important;
+}
+
+/* Override logo height from h-7 to h-10 */
+.nav-logo {
+    height: 2.5rem !important;
+    padding-left: 0.25rem !important;
+    /* h-10 = 40px = 2.5rem */
+}
